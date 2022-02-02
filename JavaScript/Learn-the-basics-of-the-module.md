@@ -44,9 +44,21 @@ document.body.textContent = name; // しまぶー
 ```
 
 ## 名前付きimport/export(named import/ named export)
-
 ### エイリアス（別名）
+エイリアスとは？
+識別子（変数や関数）に自分で別名をつけることができる
+```
+const name = "ピカチュウ";
+export { name as pika }; // 別名が使えるようになった。今回はpikaが使える
+```
 - importでエイリアスが使われることが多い
+- まとめてではなく個別に毎回exportすることができる
 
 ## Default import / export
-- export default1モジュールに対して1回しか使うことができない
+[Codesandbox](https://codesandbox.io/s/default-export-import-5uic2?file=/src/index.js)
+- export defaultはモジュールに対して1回しか使うことができない
+- import時に{}で囲わない
+- 宣言と一緒にできるのは関数のみ。（変数はカンマ区切りでまとめて宣言できてしまうため、export defaultの用途と合わない）
+- 宣言と同時にexport defaultをする場合は識別子がいらない
+
+## モジュールの特殊な Import / Export について学ぶ
