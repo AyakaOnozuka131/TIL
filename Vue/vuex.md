@@ -8,3 +8,4 @@ Vuex は Vue.js アプリケーションのための 状態管理パターン + 
 
 [公式](https://vuex.vuejs.org/ja/)
 [Vue.js + Vuexでデータが循環する全体像を図解してみた](https://qiita.com/m_mitsuhide/items/f16d988ec491b7800ace)
+[Vuexの使い方や責務について](https://zenn.dev/chida/articles/e455b5139f00cc)
